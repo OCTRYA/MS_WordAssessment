@@ -10,11 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <p>Deze pagina vergelijkt twee wordbestanden met elkaar en geeft feedback over de verschillen in opmaak</p>
-        <input type="file">
-        <input type="file">
-        <?php
-        // put your code here
-        ?>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            Select image to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
+
     </body>
 </html>
