@@ -10,6 +10,9 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <p>Deze pagina vergelijkt twee wordbestanden met elkaar en geeft feedback over de verschillen in opmaak</p>
+        <input type="file">
+        <input type="file">
         <?php
         // put your code here
         ?>
